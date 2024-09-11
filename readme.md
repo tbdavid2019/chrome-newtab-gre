@@ -1,6 +1,4 @@
-這裡是您可以使用的 `README.md` 文件範本，包含中英文對照，並提醒用戶在安裝時替換 Google Translate API key。
 
-```markdown
 # GRE Word Randomizer
 
 This is a Chrome extension that displays a random GRE word along with its meaning every time a new tab is opened. The extension translates the word and its meaning into Traditional Chinese and provides TTS (Text-to-Speech) functionality for the word.
@@ -60,10 +58,3 @@ If you don't have an API key, you can generate one by visiting the [Google Cloud
 
 This project is licensed under the MIT License.  
 本項目使用 MIT 授權。
-```
-
-### 說明：
-- `README.md` 文件中提供了如何安裝和使用擴展的詳細步驟，並提醒用戶替換 Google Translate API key。
-- 文件是雙語（中文/英文）對照，方便不同語言的用戶使用。
-  
-您可以將此 `README.md` 文件放入 GitHub 項目中，並根據需要進行修改。
