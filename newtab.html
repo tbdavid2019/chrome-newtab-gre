@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random GRE Word</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* 使內容居中 */
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    #content {
+      text-align: center;
+      animation: fadeIn 2s ease; /* 添加進場動畫效果 */
+    }
+
+    #word {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    #meaning, #chineseMeaning {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
+    /* 定義淡入動畫 */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <div id="word">Loading...</div>
+    <div id="meaning"></div>
+    <div id="chineseMeaning"></div> <!-- 顯示繁體中文翻譯 -->
+  </div>
+
+  <script src="newtab.js"></script>
+</body>
+</html>
