@@ -3,9 +3,7 @@
     "name": "GRE Word Randomizer",
     "version": "1.0",
     "description": "Displays a random GRE word and its meaning every time a new tab is opened.",
-    "action": {
-      "default_popup": "popup.html"
-    },
+   
     "chrome_url_overrides": {
       "newtab": "newtab.html"
     },
