@@ -1,20 +1,15 @@
 {
-    "manifest_version": 3,
-    "name": "GRE Word Randomizer",
-    "version": "1.0",
-    "description": "Displays a random GRE word and its meaning every time a new tab is opened.",
-   
-    "chrome_url_overrides": {
-      "newtab": "newtab.html"
-    },
-    "permissions": [
-      "storage",
-      "activeTab",
-      "tabs"
-    ],
-    "icons": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    }
+  "manifest_version": 3,
+  "name": "Random GRE Word 隨機單字複習器",
+  "version": "1.0",
+  "description": "Displays a random GRE word and its meaning every time a new tab is opened. GRE單字隨時複習",
+  
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   }
+}
